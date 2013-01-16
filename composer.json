@@ -1,0 +1,21 @@
+{
+    "name": "jtet/shodan-api",
+    "description": "PHP library for accessing the Shodan.com API",
+    "homepage": "https://github.com/jtet/Shodan",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "keywords": ["api", "shodan"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "jtet",
+            "email": "jtet.github@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
