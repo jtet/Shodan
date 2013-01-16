@@ -1,8 +1,8 @@
-#Example Usage (Under Construction)
+#Shodan API
 
-After ensuring that the file is included in your php script, you can use the class as follows:
+PHP wrapper for the Shodan API [http://www.shodanhq.com/](http://www.shodanhq.com/)
 
-	$shodan = new WebAPI("your api key");
+#Example
+
+	$shodan = new \JTet\Shodan\WebAPI("your api key");
 	$results = $shodan->search("apache");
-
-This is only one example, of which there will be many others added later. 
